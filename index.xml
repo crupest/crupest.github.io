@@ -1,10 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>crupest&#39;s blog</title>
+    <title>crupest 的博客</title>
     <link>https://crupest.cn/</link>
-    <description>Recent content on crupest&#39;s blog</description>
+    <description>Recent content on crupest 的博客</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>zh</language>
+    <copyright>crupest. 本站遵循 CC-BY-NC 4.0 协议</copyright>
     <lastBuildDate>Sun, 30 Jun 2019 18:21:30 +0800</lastBuildDate>
     
         <atom:link href="https://crupest.cn/index.xml" rel="self" type="application/rss+xml" />
@@ -17,7 +18,7 @@
         <pubDate>Sun, 30 Jun 2019 18:21:30 +0800</pubDate>
         
         <guid>https://crupest.cn/posts/self-resolvable/</guid>
-        <description>crupest&#39;s blog https://crupest.cn/posts/self-resolvable/ -&lt;p&gt;我实在是不知道怎么把这个东西翻译成中文。&lt;/p&gt;
+        <description>crupest 的博客 https://crupest.cn/posts/self-resolvable/ -&lt;p&gt;我实在是不知道怎么把这个东西翻译成中文。&lt;/p&gt;
 &lt;p&gt;任何事物的发明都有其起源。最近我在写我的那个 UI 库的时候发现了一个问题：&lt;/p&gt;
 &lt;p&gt;每当我的某个控件改变一个关系到布局的属性时，我就必须得重新 Layout，但是如果在某一个消息的处理过程中，用户改变了两个这样的属性，那么就有可能会连续 Layout 两次，很明显前一次的 Layout 是不必要的。所以我就改成了每需要 Layout 的时候，就把 layout 设成脏的，然后再投递一个事件，在下一个消息循环 Layout，这样，即使用户连续改了两个属性，Layout 的消息也只投递了一次，只会进行一次 Layout。&lt;/p&gt;
 &lt;p&gt;这样改了之后看似没有问题，但实际上又引入了一个潜在的 bug：万一用户改了两个属性之后又立即销毁了那个需要重新 Layout 的窗口呢？虽然说，好的写法应该是用户调用 InvokeLater 在下一个消息循环销毁窗口，但你不能对用户的行为做任何假定。于是，就需要在 Layout 消息处理中在真正 Layout 之前要判断一下窗口还在不在。&lt;/p&gt;
@@ -92,7 +93,7 @@
 &lt;p&gt;最后有一点有趣的是，这里用到了一个叫做&lt;a href=&#34;https://en.wikipedia.org/wiki/Curiously_recurring_template_pattern&#34;&gt;curiously recurring template pattern&lt;/a&gt;的东西，具体的可以去看看维基，就不赘述了。&lt;/p&gt;
 &lt;h2 id=&#34;update-1&#34;&gt;Update 1&lt;/h2&gt;
 &lt;p&gt;修改了所有的 Typo.&lt;/p&gt;
-- https://crupest.cn/posts/self-resolvable/ - </description>
+- https://crupest.cn/posts/self-resolvable/ - crupest. 本站遵循 CC-BY-NC 4.0 协议</description>
         </item>
     
     
