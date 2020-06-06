@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on crupest 的博客</title>
-    <link>https://crupest.cn/posts/</link>
-    <description>Recent content in Posts on crupest 的博客</description>
+    <title>jibber-jabber on crupest 的博客</title>
+    <link>https://crupest.cn/tags/jibber-jabber/</link>
+    <description>Recent content in jibber-jabber on crupest 的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <copyright>crupest. 本站遵循 CC-BY-NC 4.0 协议</copyright>
     <lastBuildDate>Sat, 06 Jun 2020 22:11:24 +0800</lastBuildDate>
     
-	<atom:link href="https://crupest.cn/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://crupest.cn/tags/jibber-jabber/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,15 +19,6 @@
       
       <guid>https://crupest.cn/posts/self-salvation-before-final-tests/</guid>
       <description>我在写什么 我已经好久没有写很长的东西了，更不用说写这种还会公开发表在自己的博客上的内容。如果不是要放在博客上，我可能也不会有动力去写，毕竟我</description>
-    </item>
-    
-    <item>
-      <title>Self Resolvable</title>
-      <link>https://crupest.cn/posts/self-resolvable/</link>
-      <pubDate>Sun, 30 Jun 2019 18:21:30 +0800</pubDate>
-      
-      <guid>https://crupest.cn/posts/self-resolvable/</guid>
-      <description>我实在是不知道怎么把这个东西翻译成中文。 任何事物的发明都有其起源。最近我在写我的那个 UI 库的时候发现了一个问题： 每当我的某个控件改变一个关系到</description>
     </item>
     
   </channel>

@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <copyright>crupest. 本站遵循 CC-BY-NC 4.0 协议</copyright>
-    <lastBuildDate>Sun, 30 Jun 2019 18:21:30 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 06 Jun 2020 22:11:24 +0800</lastBuildDate>
     
 	<atom:link href="https://crupest.cn/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>jibber-jabber</title>
+      <link>https://crupest.cn/tags/jibber-jabber/</link>
+      <pubDate>Sat, 06 Jun 2020 22:11:24 +0800</pubDate>
+      
+      <guid>https://crupest.cn/tags/jibber-jabber/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>C&#43;&#43;</title>
