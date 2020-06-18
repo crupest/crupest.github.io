@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <copyright>crupest. 本站遵循 CC-BY-NC 4.0 协议</copyright>
-    <lastBuildDate>Sat, 06 Jun 2020 22:11:24 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 19 Jun 2020 00:25:07 +0800</lastBuildDate>
     
 	<atom:link href="https://crupest.cn/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>期末考试后的分裂</title>
+      <link>https://crupest.cn/posts/splitting-after-final-tests/</link>
+      <pubDate>Fri, 19 Jun 2020 00:25:07 +0800</pubDate>
+      
+      <guid>https://crupest.cn/posts/splitting-after-final-tests/</guid>
+      <description>写在前面的话 我也想不到，我的博客最终成了我的”个人情感日记本“。其实我一开始是想写一些关于编程的技术文章。可惜我太懒了，懒得去写那些正经事，</description>
+    </item>
     
     <item>
       <title>期末考试前的自我救赎</title>
