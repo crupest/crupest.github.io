@@ -14,11 +14,11 @@
     
         <item>
         <title>关于我——crupest</title>
-        <link>https://crupest.cn/me/</link>
+        <link>https://crupest.cn/about/</link>
         <pubDate>Fri, 19 Jun 2020 23:45:08 +0800</pubDate>
         
-        <guid>https://crupest.cn/me/</guid>
-        <description>crupest 的博客 https://crupest.cn/me/ -&lt;h1 id=&#34;自我介绍&#34;&gt;自我介绍&lt;/h1&gt;
+        <guid>https://crupest.cn/about/</guid>
+        <description>crupest 的博客 https://crupest.cn/about/ -&lt;h1 id=&#34;自我介绍&#34;&gt;自我介绍&lt;/h1&gt;
 &lt;p&gt;姓名： crupest（我是不会轻易地告诉你我的真名的！）&lt;/p&gt;
 &lt;p&gt;性别：男&lt;/p&gt;
 &lt;p&gt;学校：武汉轻工大学，计算机专业&lt;/p&gt;
@@ -47,7 +47,9 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;传送门：&lt;a href=&#34;https://github.com/crupest&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
-- https://crupest.cn/me/ - crupest. 本站遵循 CC-BY-NC 4.0 协议</description>
+&lt;h1 id=&#34;关于博客&#34;&gt;关于博客&lt;/h1&gt;
+&lt;p&gt;本博客采用 &lt;a href=&#34;http://creativecommons.org/licenses/by-nc/4.0/&#34;&gt;CC-BY-NC 4.0 协议&lt;/a&gt; 。&lt;/p&gt;
+- https://crupest.cn/about/ - crupest. 本站遵循 CC-BY-NC 4.0 协议</description>
         </item>
     
     

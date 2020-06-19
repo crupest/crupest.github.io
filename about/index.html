@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html><head>
-<title>Tags</title>
+<title>关于我——crupest</title>
 
 
 
@@ -51,7 +51,29 @@
 
 
 
+  
+    <script src="https://crupest.cn//js/toc-collapse.js"></script>
+  
 
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+<script src="/vendor/js/md5.min.js"></script>
+<script>
+  var gitalk = new Gitalk({
+  clientID: 'd42abdc40e589fa82863',
+  clientSecret: '4ca85252508db58e77122081fd95b73a71f09aec',
+  repo: 'crupest.github.io',
+  owner: 'crupest',
+  admin: ['crupest'],
+  id: md5(location.pathname),
+  distractionFreeMode: 'false'
+  });
+  window.onload = function () {
+        gitalk.render('gitalk-container')
+  }
+</script>
 
 
 
@@ -97,11 +119,9 @@
             
             
             
-                
             
             
-            
-            <a class="a-block nav-link-item active" href="/tags">
+            <a class="a-block nav-link-item false" href="/tags">
                 标签
             </a>
             
@@ -109,9 +129,11 @@
             
             
             
+                
             
             
-            <a class="a-block nav-link-item false" href="/about">
+            
+            <a class="a-block nav-link-item active" href="/about">
                 关于
             </a>
             
@@ -147,6 +169,60 @@ Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> b
 </div><div ref="extraContainer" class="extra-container">
     
     
+    <div class="toc animated-visibility" :class="{ invisible: scrollY <= 140 }">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+		<center>- 目录 -</center>
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e8%87%aa%e6%88%91%e4%bb%8b%e7%bb%8d" onclick="collapseOthers(`#自我介绍-nav`)" id="自我介绍-nav">
+									自我介绍
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e5%85%b3%e4%ba%8e%e5%8d%9a%e5%ae%a2" onclick="collapseOthers(`#关于博客-nav`)" id="关于博客-nav">
+									关于博客
+								</a>
+							</li>
+						
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
+    
     <div class="pagination">
         <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top" :class="{ invisible: scrollY == 0 }">
             <i class="material-icons pagination-action-icon">
@@ -162,8 +238,6 @@ Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> b
                 brightness_7
             </i>
         </a>
-        
-        
         
         
     </div>
@@ -197,11 +271,9 @@ Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> b
                 
                 
                 
-                    
                 
                 
-                
-                <a class="a-block drawer-menu-item active" href="/tags">
+                <a class="a-block drawer-menu-item false" href="/tags">
                     标签
                 </a>
                 
@@ -209,9 +281,11 @@ Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> b
                 
                 
                 
+                    
                 
                 
-                <a class="a-block drawer-menu-item false" href="/about">
+                
+                <a class="a-block drawer-menu-item active" href="/about">
                     关于
                 </a>
                 
@@ -226,6 +300,60 @@ Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> b
                 </a>
                 
             
+            
+            <div class="toc">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+		<center>- 目录 -</center>
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e8%87%aa%e6%88%91%e4%bb%8b%e7%bb%8d" onclick="collapseOthers(`#自我介绍-nav`)" id="自我介绍-nav">
+									自我介绍
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e5%85%b3%e4%ba%8e%e5%8d%9a%e5%ae%a2" onclick="collapseOthers(`#关于博客-nav`)" id="关于博客-nav">
+									关于博客
+								</a>
+							</li>
+						
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
             
         </div>
     </div>
@@ -267,63 +395,114 @@ Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> b
             <div id="content">
 <div ref="streamContainer" class="stream-container">
     <div class="post-list-container post-list-container-shadow">
-        <a class="a-block">
-            <div class="post-item-wrapper post-item-wrapper-no-hover">
-                <div class="post-item post-item-no-gaps">
-                    <div class="post-item-info-wrapper">
-                        <div class="post-item-title post-item-title-small">
-                            Tags
-                        </div>
+        <div class="post">
+            
+            
+            
+                
+            
+
+            <div class="post-head-wrapper"
+                
+                    
+                    
+                    style="background-image: url('https://crupest.cn/images/crupest.png')"
+                    
+                
+            >
+                <div class="post-title">
+                    关于我——crupest
+                    
+                    <div class="post-meta">
+                        
+                        <time itemprop="datePublished">
+                            2020-06-19 23:45
+                        </time>
+                        
+
+                        
+
+                        
+                        
                     </div>
                 </div>
             </div>
-        </a>
-        
-        
-                <a href="https://crupest.cn/tags/jibber-jabber/" class="a-block">
-                    <div class="post-item-wrapper">
-                        <div class="post-item post-item-no-gaps">
-                            <div class="post-item-info-wrapper"> 
-                                <div class="post-item-title">
-                                    jibber-jabber
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            
+            <div class="post-body-wrapper">
+                
+                <div class="post-body" v-pre>
+                
+                    <h1 id="自我介绍">自我介绍</h1>
+<p>姓名： crupest（我是不会轻易地告诉你我的真名的！）</p>
+<p>性别：男</p>
+<p>学校：武汉轻工大学，计算机专业</p>
+<p>爱好：</p>
+<ul>
+<li>
+<p>写代码</p>
+</li>
+<li>
+<p>和好朋友玩</p>
+</li>
+<li>
+<p>英雄联盟</p>
+</li>
+</ul>
+<p>天敌：</p>
+<ul>
+<li>
+<p>运动</p>
+</li>
+<li>
+<p>运动</p>
+</li>
+<li>
+<p>运动</p>
+</li>
+</ul>
+<p>传送门：<a href="https://github.com/crupest">GitHub</a></p>
+<h1 id="关于博客">关于博客</h1>
+<p>本博客采用 <a href="http://creativecommons.org/licenses/by-nc/4.0/">CC-BY-NC 4.0 协议</a> 。</p>
+
+                    
+                    <HR width="100%" id="EOF">
+		    <p style="color:#777;">最后修改于 2020-06-19</p>
+                    
+                </div>
+            </div>
+            
+            
+            <nav class="post-pagination">
+
+                
+                <a class="newer-posts">
+			下回<br>已经到头啦。
                 </a>
-        
-                <a href="https://crupest.cn/tags/c&#43;&#43;/" class="a-block">
-                    <div class="post-item-wrapper">
-                        <div class="post-item post-item-no-gaps">
-                            <div class="post-item-info-wrapper"> 
-                                <div class="post-item-title">
-                                    C&#43;&#43;
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                
+                
+                
+                <a class="older-posts" href="https://crupest.cn/posts/splitting-after-final-tests/">
+			上回<br>期末考试后的分裂
                 </a>
-        
-                <a href="https://crupest.cn/tags/cruui/" class="a-block">
-                    <div class="post-item-wrapper">
-                        <div class="post-item post-item-no-gaps">
-                            <div class="post-item-info-wrapper"> 
-                                <div class="post-item-title">
-                                    CruUI
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-        
-    </div>
-</div>
+                
+            </nav>
+            <div class="post-comment-wrapper">
+                
+
+
+<div id="gitalk-container"></div>
+
+
+
+
 
 
             </div>
+        </div>
+    </div>
+</div>
 
-
-<div id="single-column-footer">
+            </div><div id="single-column-footer">
 Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
 <br>
 移植自 <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
