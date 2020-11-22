@@ -1,4 +1,31 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>crupest 的博客</title><link>https://crupest.life/</link><description>Recent content on crupest 的博客</description><generator>Hugo -- gohugo.io</generator><language>zh</language><copyright>crupest. 本站遵循 CC-BY-NC 4.0 协议</copyright><lastBuildDate>Tue, 03 Nov 2020 01:34:10 +0800</lastBuildDate><atom:link href="https://crupest.life/index.xml" rel="self" type="application/rss+xml"/><item><title>又一篇闲聊</title><link>https://crupest.life/posts/yet-another-free-chat/</link><pubDate>Tue, 03 Nov 2020 01:34:10 +0800</pubDate><guid>https://crupest.life/posts/yet-another-free-chat/</guid><description>crupest 的博客 https://crupest.life/posts/yet-another-free-chat/ -&lt;h1 id="动机">动机&lt;/h1>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>crupest 的博客</title><link>https://crupest.life/</link><description>Recent content on crupest 的博客</description><generator>Hugo -- gohugo.io</generator><language>zh</language><copyright>crupest. 本站遵循 CC-BY-NC 4.0 协议</copyright><lastBuildDate>Sun, 22 Nov 2020 17:38:08 +0800</lastBuildDate><atom:link href="https://crupest.life/index.xml" rel="self" type="application/rss+xml"/><item><title>学习驻波</title><link>https://crupest.life/posts/learn-standing-wave/</link><pubDate>Sun, 22 Nov 2020 17:38:08 +0800</pubDate><guid>https://crupest.life/posts/learn-standing-wave/</guid><description>crupest 的博客 https://crupest.life/posts/learn-standing-wave/ -&lt;h1 id="前言">前言&lt;/h1>
+&lt;p>因为旷了几节大物课，直接导致了我知识脱节。在我不断的追赶之后，我终于慢慢赶上了进度。借这篇文章的机会学习一下驻波。如果写错了，请举报我！&lt;/p>
+&lt;p>其实我只是想玩一下 $\LaTeX$ .&lt;/p>
+&lt;h2 id="介绍">介绍&lt;/h2>
+&lt;p>&lt;strong>驻波&lt;/strong>是指质元在平衡位置振动的波，它与&lt;strong>行波&lt;/strong>相对。我个人的理解就是它不会跑，就在原地振动。&lt;/p>
+&lt;p>一种产生条件是，两列&lt;strong>振幅相同&lt;/strong>，在同一直线上，沿&lt;strong>相反&lt;/strong>方向传播的相干波叠加在一起就会产生。&lt;/p>
+&lt;h2 id="数学推导">数学推导&lt;/h2>
+&lt;p>首先，沿 $Ox$ 轴正方向传播的波 1
+$$y_1 = A \cos 2 \pi \left( \frac{t}{T} - \frac{x}{\lambda} \right)$$&lt;/p>
+&lt;p>然后，沿 $Ox$ 轴负方向传播的波 2
+$$y_2 = A \cos 2 \pi \left( \frac{t}{T} + \frac{x}{\lambda} \right)$$&lt;/p>
+&lt;p>加起来
+$$y = y_1 + y_2 = A\left[\cos2\pi\left(\frac{t}{T}-\frac{x}{\lambda}\right)+\cos2\pi\left( \frac{t}{T} + \frac{x}{\lambda} \right)\right]$$&lt;/p>
+&lt;p>使用&lt;strong>怎么都记不住&lt;/strong>的和差化积公式
+$$\cos\alpha+\cos\beta=2\cos\frac{\alpha+\beta}{2}\cos\frac{\alpha-\beta}{2}$$&lt;/p>
+&lt;p>就得到
+$$y=\left(2A\cos\frac{2\pi}{\lambda}x\right)\cos\frac{2\pi}{T}t$$&lt;/p>
+&lt;p>对于任意的$x$，$\left(2A\cos\frac{2\pi}{\lambda}x\right)$是个定值，所以该点上的质元做简谐运动。&lt;/p>
+&lt;p>对于 $x=k\frac{\lambda}{2}\quad\left(k\in Z\right)$ 的质元
+$$y=\pm2A\cos\frac{2\pi}{T}t$$
+振幅最大，称为&lt;strong>波腹&lt;/strong>。&lt;/p>
+&lt;p>而对于 $x=\left(2k+1\right)\frac{\lambda}{4}\quad\left(k\in Z\right)$ 的质元
+$$y=0$$
+也就是说它们不振动，称为&lt;strong>波节&lt;/strong>。&lt;/p>
+&lt;h1 id="最后">最后&lt;/h1>
+&lt;p>大部分公式copy自《普通物理学》。&lt;/p>
+&lt;p>好吧，我承认我其实就是把那本书上的公式搬运了过来。&lt;/p>
+- https://crupest.life/posts/learn-standing-wave/ - crupest. 本站遵循 CC-BY-NC 4.0 协议</description></item><item><title>又一篇闲聊</title><link>https://crupest.life/posts/yet-another-free-chat/</link><pubDate>Tue, 03 Nov 2020 01:34:10 +0800</pubDate><guid>https://crupest.life/posts/yet-another-free-chat/</guid><description>crupest 的博客 https://crupest.life/posts/yet-another-free-chat/ -&lt;h1 id="动机">动机&lt;/h1>
 &lt;p>今天看到纯纯写作更新了一个很好的功能，那就是我最最最喜欢的光标移动动画。第一次见到这个动画是在2016版的Office套件中，当时就爱上了这种动画一发不可收拾，并且决定自己将来的UI库中一定要加入这个动画。然而我的UI库没写成，反倒是纯纯写作加上了这个我最爱的特性。&lt;/p>
 &lt;h1 id="关于纯纯写作">关于纯纯写作&lt;/h1>
 &lt;p>不得不说，纯纯写作是国产业余自主开发的Android App中的顶尖之作。无论是从技术、设计还是营销的角度来说它都是成功的。&lt;/p>
