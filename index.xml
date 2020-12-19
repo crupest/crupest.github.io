@@ -1,4 +1,21 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>crupest 的博客</title><link>https://crupest.life/</link><description>Recent content on crupest 的博客</description><generator>Hugo -- gohugo.io</generator><language>zh</language><copyright>crupest. 本站遵循 CC-BY-NC 4.0 协议</copyright><lastBuildDate>Sun, 22 Nov 2020 17:38:08 +0800</lastBuildDate><atom:link href="https://crupest.life/index.xml" rel="self" type="application/rss+xml"/><item><title>学习驻波</title><link>https://crupest.life/posts/learn-standing-wave/</link><pubDate>Sun, 22 Nov 2020 17:38:08 +0800</pubDate><guid>https://crupest.life/posts/learn-standing-wave/</guid><description>crupest 的博客 https://crupest.life/posts/learn-standing-wave/ -&lt;h1 id="前言">前言&lt;/h1>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>crupest 的博客</title><link>https://crupest.life/</link><description>Recent content on crupest 的博客</description><generator>Hugo -- gohugo.io</generator><language>zh</language><copyright>crupest. 本站遵循 CC-BY-NC 4.0 协议</copyright><lastBuildDate>Sat, 19 Dec 2020 15:30:00 +0800</lastBuildDate><atom:link href="https://crupest.life/index.xml" rel="self" type="application/rss+xml"/><item><title>车</title><link>https://crupest.life/posts/car/</link><pubDate>Sat, 19 Dec 2020 15:30:00 +0800</pubDate><guid>https://crupest.life/posts/car/</guid><description>crupest 的博客 https://crupest.life/posts/car/ -&lt;h1 id="1">1&lt;/h1>
+&lt;p>2014的夏天，是我第一次远离家乡，来到武汉上学。有一次收假，我从老家团风，一人乘车前往学校。我从团风客运站出发，途径阳逻，来到武汉武昌，再坐公交车，前往学校。那年我14岁，与我同行的，也许还有中国千千万万离开家乡读书的少年。&lt;/p>
+&lt;p>有一次，公交车上接踵摩肩，喇叭用虚弱的声音报站，我听不清，下错了站。上了几个月的高中，我第一次哭了。我在陌生的站台下用我的老人机给我妈打电话。&lt;/p>
+&lt;p>这样的手足无措，也许我再不会经历第二次了，因为我有了智能手机，以及一个已经学会看地图和认路的脑袋。可那天我的惊慌，被我永远的记住了。&lt;/p>
+&lt;h1 id="2">2&lt;/h1>
+&lt;p>2015年我被检查出抑郁症，父母来武汉陪读，但我还是没读下去。我爸在租的房子附近开公交车，我难受，我妈就带着我去坐我爸开的公交车。&lt;/p>
+&lt;p>一站又一站，过去又回来。那时的我是麻木的，习惯了难受，习惯了在难受中挣扎，习惯了在父母的陪伴下仍然无动于衷。&lt;/p>
+&lt;p>现在每次路过省博物馆那附近，我就想起我在车上茫然的看着道路的眼神。&lt;/p>
+&lt;h1 id="3">3&lt;/h1>
+&lt;p>2018年，我顺利的完成了高考，度过了大多数人认为中最快乐的暑假。&lt;/p>
+&lt;p>我和我在本地高中结识的众多好友，一起前往张家界旅游。张家界真的很美，但让我更难忘的是旅途中与朋友的陪伴与争执。返途的火车在深夜，是一辆普快列车，硬座。车上我们拖着疲惫的身躯，拿着快没有电的手机，面对面坐着，时不时相互看看对方。&lt;/p>
+&lt;p>他们是我现在最好的朋友，我觉得这辈子最幸运的事就是遇到了他们。在他们的陪伴下，我上完了剩余的高中，也终于再一次相信了友谊。&lt;/p>
+&lt;h1 id="4">4&lt;/h1>
+&lt;p>2020年的现在，我一个人坐在公交上酝酿着这篇散文。我好像已经爱上了一个人坐公交车去散心。车上人不多，但车厢内很暖和。&lt;/p>
+&lt;p>我是孤独的吗？也许我是的。Literally speaking，我是的。每一个抑郁症的患者每时每刻都有可能在忍受着无尽的孤独感和不安全感。但是我已经习惯了在这种感觉中苟延残喘，而且我还会继续这样带着呼吸活下去。&lt;/p>
+&lt;h1 id="5">5&lt;/h1>
+&lt;p>川流不息的车啊，请用你呼啸而过的风，带走我眼里满噙的泪水。&lt;/p>
+- https://crupest.life/posts/car/ - crupest. 本站遵循 CC-BY-NC 4.0 协议</description></item><item><title>学习驻波</title><link>https://crupest.life/posts/learn-standing-wave/</link><pubDate>Sun, 22 Nov 2020 17:38:08 +0800</pubDate><guid>https://crupest.life/posts/learn-standing-wave/</guid><description>crupest 的博客 https://crupest.life/posts/learn-standing-wave/ -&lt;h1 id="前言">前言&lt;/h1>
 &lt;p>因为旷了几节大物课，直接导致了我知识脱节。在我不断的追赶之后，我终于慢慢赶上了进度。借这篇文章的机会学习一下驻波。如果写错了，请举报我！&lt;/p>
 &lt;p>其实我只是想玩一下 $\LaTeX$ .&lt;/p>
 &lt;h2 id="介绍">介绍&lt;/h2>
